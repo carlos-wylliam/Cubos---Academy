@@ -3,7 +3,7 @@
 let encontrado = false
 
 for(let letras of palavras){
-    if(letras.substring(0,1) === primeiraLetra || letras.substring(0,2) === segundaLetra){
+    if(letras.substring(0,1) === primeiraLetra && letras.substring(1,2) === segundaLetra){
         console.log(letras)
         encontrado = true
           
