@@ -16,8 +16,6 @@ const pessoa3 = {
     profissao: "Vendedor de salada de fruta"
 }
 
-//------------------------------------------
-
 function faixaEtaria(idade){
     if(idade <= 21){
         return "jovem"
